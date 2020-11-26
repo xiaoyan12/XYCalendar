@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0482A1D7256E28A1008D7157 /* XYCalendarHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482A1D6256E28A1008D7157 /* XYCalendarHeadView.m */; };
 		04872E9E256CFE260040E454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872E9D256CFE260040E454 /* AppDelegate.m */; };
 		04872EA1256CFE260040E454 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872EA0256CFE260040E454 /* SceneDelegate.m */; };
 		04872EA4256CFE260040E454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872EA3256CFE260040E454 /* ViewController.m */; };
@@ -16,6 +17,13 @@
 		04872EAF256CFE280040E454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872EAE256CFE280040E454 /* main.m */; };
 		04872EB9256CFE280040E454 /* XYCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872EB8256CFE280040E454 /* XYCalendarTests.m */; };
 		04872EC4256CFE280040E454 /* XYCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872EC3256CFE280040E454 /* XYCalendarUITests.m */; };
+		04872ED4256CFE870040E454 /* XYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872ED3256CFE870040E454 /* XYCalendarView.m */; };
+		04872ED7256CFEA00040E454 /* XYCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872ED6256CFEA00040E454 /* XYCalendarCell.m */; };
+		04872EDC256CFF940040E454 /* XYCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872EDB256CFF940040E454 /* XYCalendarModel.m */; };
+		04872EE1256D08FD0040E454 /* NSDate+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 04872EE0256D08FD0040E454 /* NSDate+Date.m */; };
+		5C994F91C4A244FC61EF7105 /* Pods_XYCalendar_XYCalendarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537BFA175EE5F9FFD8F371D /* Pods_XYCalendar_XYCalendarUITests.framework */; };
+		6537CB00D3C54ACA45AF9EEC /* Pods_XYCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E837B69CCED851AEC4FEE3C1 /* Pods_XYCalendar.framework */; };
+		BF187362969BDAD6BFD3EA6C /* Pods_XYCalendarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9A592159F74639913D5E5 /* Pods_XYCalendarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0482A1D5256E28A1008D7157 /* XYCalendarHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYCalendarHeadView.h; sourceTree = "<group>"; };
+		0482A1D6256E28A1008D7157 /* XYCalendarHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCalendarHeadView.m; sourceTree = "<group>"; };
 		04872E99256CFE260040E454 /* XYCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04872E9C256CFE260040E454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04872E9D256CFE260040E454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +64,23 @@
 		04872EBF256CFE280040E454 /* XYCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04872EC3256CFE280040E454 /* XYCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCalendarUITests.m; sourceTree = "<group>"; };
 		04872EC5256CFE280040E454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04872ED2256CFE870040E454 /* XYCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYCalendarView.h; sourceTree = "<group>"; };
+		04872ED3256CFE870040E454 /* XYCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCalendarView.m; sourceTree = "<group>"; };
+		04872ED5256CFEA00040E454 /* XYCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYCalendarCell.h; sourceTree = "<group>"; };
+		04872ED6256CFEA00040E454 /* XYCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCalendarCell.m; sourceTree = "<group>"; };
+		04872EDA256CFF940040E454 /* XYCalendarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYCalendarModel.h; sourceTree = "<group>"; };
+		04872EDB256CFF940040E454 /* XYCalendarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCalendarModel.m; sourceTree = "<group>"; };
+		04872EDF256D08FD0040E454 /* NSDate+Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Date.h"; sourceTree = "<group>"; };
+		04872EE0256D08FD0040E454 /* NSDate+Date.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Date.m"; sourceTree = "<group>"; };
+		0537BFA175EE5F9FFD8F371D /* Pods_XYCalendar_XYCalendarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYCalendar_XYCalendarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21450057D6EBB7A98EEF4AB1 /* Pods-XYCalendar-XYCalendarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCalendar-XYCalendarUITests.debug.xcconfig"; path = "Target Support Files/Pods-XYCalendar-XYCalendarUITests/Pods-XYCalendar-XYCalendarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA9A592159F74639913D5E5 /* Pods_XYCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D7CFAE8C501E2430886EB /* Pods-XYCalendar-XYCalendarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCalendar-XYCalendarUITests.release.xcconfig"; path = "Target Support Files/Pods-XYCalendar-XYCalendarUITests/Pods-XYCalendar-XYCalendarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88169621F7F7CEEEF0E090D3 /* Pods-XYCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCalendarTests.debug.xcconfig"; path = "Target Support Files/Pods-XYCalendarTests/Pods-XYCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F340733FD49ED274EE9306 /* Pods-XYCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCalendarTests.release.xcconfig"; path = "Target Support Files/Pods-XYCalendarTests/Pods-XYCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFBECEC997D1EF1099523C8E /* Pods-XYCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCalendar.debug.xcconfig"; path = "Target Support Files/Pods-XYCalendar/Pods-XYCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		E837B69CCED851AEC4FEE3C1 /* Pods_XYCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F652F15BF58E3E1DB5140399 /* Pods-XYCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCalendar.release.xcconfig"; path = "Target Support Files/Pods-XYCalendar/Pods-XYCalendar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6537CB00D3C54ACA45AF9EEC /* Pods_XYCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF187362969BDAD6BFD3EA6C /* Pods_XYCalendarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C994F91C4A244FC61EF7105 /* Pods_XYCalendar_XYCalendarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +118,8 @@
 				04872EB7256CFE280040E454 /* XYCalendarTests */,
 				04872EC2256CFE280040E454 /* XYCalendarUITests */,
 				04872E9A256CFE260040E454 /* Products */,
+				F2D6A4ED57D1E84F34B4633B /* Pods */,
+				FE46463E2A9893A8A647419A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +142,7 @@
 				04872EA0256CFE260040E454 /* SceneDelegate.m */,
 				04872EA2256CFE260040E454 /* ViewController.h */,
 				04872EA3256CFE260040E454 /* ViewController.m */,
+				04872ED1256CFE600040E454 /* XYCalendarView */,
 				04872EA5256CFE260040E454 /* Main.storyboard */,
 				04872EA8256CFE280040E454 /* Assets.xcassets */,
 				04872EAA256CFE280040E454 /* LaunchScreen.storyboard */,
@@ -137,6 +170,70 @@
 			path = XYCalendarUITests;
 			sourceTree = "<group>";
 		};
+		04872ED1256CFE600040E454 /* XYCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				04872ED2256CFE870040E454 /* XYCalendarView.h */,
+				04872ED3256CFE870040E454 /* XYCalendarView.m */,
+				04872EDD256D08810040E454 /* 分类 */,
+				04872ED9256CFF7B0040E454 /* View */,
+				04872ED8256CFF5F0040E454 /* Model */,
+			);
+			path = XYCalendarView;
+			sourceTree = "<group>";
+		};
+		04872ED8256CFF5F0040E454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04872EDA256CFF940040E454 /* XYCalendarModel.h */,
+				04872EDB256CFF940040E454 /* XYCalendarModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04872ED9256CFF7B0040E454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04872ED5256CFEA00040E454 /* XYCalendarCell.h */,
+				04872ED6256CFEA00040E454 /* XYCalendarCell.m */,
+				0482A1D5256E28A1008D7157 /* XYCalendarHeadView.h */,
+				0482A1D6256E28A1008D7157 /* XYCalendarHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04872EDD256D08810040E454 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				04872EDF256D08FD0040E454 /* NSDate+Date.h */,
+				04872EE0256D08FD0040E454 /* NSDate+Date.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		F2D6A4ED57D1E84F34B4633B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFBECEC997D1EF1099523C8E /* Pods-XYCalendar.debug.xcconfig */,
+				F652F15BF58E3E1DB5140399 /* Pods-XYCalendar.release.xcconfig */,
+				21450057D6EBB7A98EEF4AB1 /* Pods-XYCalendar-XYCalendarUITests.debug.xcconfig */,
+				645D7CFAE8C501E2430886EB /* Pods-XYCalendar-XYCalendarUITests.release.xcconfig */,
+				88169621F7F7CEEEF0E090D3 /* Pods-XYCalendarTests.debug.xcconfig */,
+				C2F340733FD49ED274EE9306 /* Pods-XYCalendarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE46463E2A9893A8A647419A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E837B69CCED851AEC4FEE3C1 /* Pods_XYCalendar.framework */,
+				0537BFA175EE5F9FFD8F371D /* Pods_XYCalendar_XYCalendarUITests.framework */,
+				5CA9A592159F74639913D5E5 /* Pods_XYCalendarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04872EC8256CFE280040E454 /* Build configuration list for PBXNativeTarget "XYCalendar" */;
 			buildPhases = (
+				6C48CBC8D640B5DC9793B253 /* [CP] Check Pods Manifest.lock */,
 				04872E95256CFE260040E454 /* Sources */,
 				04872E96256CFE260040E454 /* Frameworks */,
 				04872E97256CFE260040E454 /* Resources */,
+				54752871E6D49FCF78E12BB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04872ECB256CFE280040E454 /* Build configuration list for PBXNativeTarget "XYCalendarTests" */;
 			buildPhases = (
+				059948DA17FB74AC0CE8C634 /* [CP] Check Pods Manifest.lock */,
 				04872EB0256CFE280040E454 /* Sources */,
 				04872EB1256CFE280040E454 /* Frameworks */,
 				04872EB2256CFE280040E454 /* Resources */,
@@ -179,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04872ECE256CFE280040E454 /* Build configuration list for PBXNativeTarget "XYCalendarUITests" */;
 			buildPhases = (
+				5FE7739EB638AFAEF50525DF /* [CP] Check Pods Manifest.lock */,
 				04872EBB256CFE280040E454 /* Sources */,
 				04872EBC256CFE280040E454 /* Frameworks */,
 				04872EBD256CFE280040E454 /* Resources */,
+				8AD2DD530CC24B557D4ACA17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,15 +364,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		059948DA17FB74AC0CE8C634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYCalendarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54752871E6D49FCF78E12BB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYCalendar/Pods-XYCalendar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYCalendar/Pods-XYCalendar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYCalendar/Pods-XYCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE7739EB638AFAEF50525DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYCalendar-XYCalendarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C48CBC8D640B5DC9793B253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD2DD530CC24B557D4ACA17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYCalendar-XYCalendarUITests/Pods-XYCalendar-XYCalendarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYCalendar-XYCalendarUITests/Pods-XYCalendar-XYCalendarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYCalendar-XYCalendarUITests/Pods-XYCalendar-XYCalendarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04872E95256CFE260040E454 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0482A1D7256E28A1008D7157 /* XYCalendarHeadView.m in Sources */,
+				04872EE1256D08FD0040E454 /* NSDate+Date.m in Sources */,
+				04872ED7256CFEA00040E454 /* XYCalendarCell.m in Sources */,
 				04872EA4256CFE260040E454 /* ViewController.m in Sources */,
+				04872ED4256CFE870040E454 /* XYCalendarView.m in Sources */,
 				04872E9E256CFE260040E454 /* AppDelegate.m in Sources */,
 				04872EAF256CFE280040E454 /* main.m in Sources */,
 				04872EA1256CFE260040E454 /* SceneDelegate.m in Sources */,
+				04872EDC256CFF940040E454 /* XYCalendarModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +647,7 @@
 		};
 		04872EC9256CFE280040E454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBECEC997D1EF1099523C8E /* Pods-XYCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +664,7 @@
 		};
 		04872ECA256CFE280040E454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F652F15BF58E3E1DB5140399 /* Pods-XYCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +681,7 @@
 		};
 		04872ECC256CFE280040E454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88169621F7F7CEEEF0E090D3 /* Pods-XYCalendarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +701,7 @@
 		};
 		04872ECD256CFE280040E454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F340733FD49ED274EE9306 /* Pods-XYCalendarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +721,7 @@
 		};
 		04872ECF256CFE280040E454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21450057D6EBB7A98EEF4AB1 /* Pods-XYCalendar-XYCalendarUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XYCalendarUITests/Info.plist;
@@ -524,6 +739,7 @@
 		};
 		04872ED0256CFE280040E454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645D7CFAE8C501E2430886EB /* Pods-XYCalendar-XYCalendarUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XYCalendarUITests/Info.plist;

@@ -1,0 +1,6 @@
+framework module Pods_XYCalendar_XYCalendarUITests {
+  umbrella header "Pods-XYCalendar-XYCalendarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
